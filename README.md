@@ -1,5 +1,6 @@
 # AlbumPhoto
 
+Jawaban 
 1. Menggunakan swift sudah hampir satu tahun sejak mengikuti Apple Developer Academy
 2. Library yang sudah digunakan: AVFoundation untuk menjalankan fungsi rekaman media baik berupa audio mapun video, Core Data untuk menyimpan data lokal, SwiftUI untuk declarative programming interface, Health untuk merekam data kesehatan, Core Animation untuk menjalankan animasi
 3. Selama ini menggunakan MVC untuk membedakan Model (data dan properti), View (tampilan end user) dan Controller (untuk menjalankan aksi yang dikirimkan oleh user dan menghubungkan Model dan View sehingga menampilkan data dan komponen yang ingin ditampilkan). Selain itu, dalam SwiftUI menggunakan MVVM (Model View dan View Model). Model untuk penentuan data dan properti, View untuk tampilan end user dan View Model mengatur komponen dan data yang akan ditampilkan dalam View (tampilan end user). Menggunakan teknik data binding yang dilakukan antara ViewModel dengan View.
