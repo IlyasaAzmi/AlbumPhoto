@@ -56,6 +56,7 @@ class AlbumTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("select row at \(indexPath.row)")
         tableView.deselectRow(at: indexPath, animated: true)
+        performSegue(withIdentifier: "showPhoto", sender: nil)
     }
 
     /*
